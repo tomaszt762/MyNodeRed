@@ -7,5 +7,5 @@ module.exports = function(RED) {
             node.send(msg);
         });
     }
-    RED.nodes.registerType("Create device",Node);
+    RED.nodes.registerType("Create Device",Node);
 }
