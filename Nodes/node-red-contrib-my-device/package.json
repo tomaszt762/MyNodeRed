@@ -7,8 +7,8 @@
   },
   "author": "",
   "license": "ISC"
-  "node-red" : {
+  "node-red": {
         "nodes": {
-            "create-device": "nodes/create-device.js"
+            "Create Device": "nodes/create-device.js"
         }
 }
