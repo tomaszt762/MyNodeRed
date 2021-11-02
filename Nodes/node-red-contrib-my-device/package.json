@@ -6,9 +6,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
-  "node-red" : {
+  "license": "ISC",
+  "node-red": {
         "nodes": {
-            "create-device": "nodes/create-device.js"
+            "Create Device": "nodes/create-device.js"
         }
 }

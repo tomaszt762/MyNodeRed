@@ -1,5 +1,5 @@
 module.exports = function(RED) {
-    function createDevice(config) {
+    function Node(config) {
         RED.nodes.createNode(this,config);
         var node = this;
         node.on('input', function(msg) {
@@ -7,5 +7,5 @@ module.exports = function(RED) {
             node.send(msg);
         });
     }
-    RED.nodes.registerType("create-device",createDevice);
+    RED.nodes.registerType("Create Device",Node);
 }
