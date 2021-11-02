@@ -1,0 +1,260 @@
+{
+	"type2": {
+		"schema": {
+			"id": "3af76400804f2121",
+			"type": "Device Schema",
+			"_closeCallbacks": [
+				null
+			],
+			"_inputCallback": null,
+			"_inputCallbacks": null,
+			"wires": [],
+			"_wireCount": 0,
+			"deviceType": "type2",
+			"evts": [
+				{
+					"guid": "c9af5b2c3fcd",
+					"name": "event11",
+					"payload": {
+						"properties": {
+							"0": "e2f31a1b7c4d",
+							"1": "e61ae20fed88",
+							"length": 2,
+							"prevObject": {
+								"0": "e2f31a1b7c4d",
+								"1": "e61ae20fed88",
+								"length": 2,
+								"prevObject": {
+									"0": {},
+									"1": {},
+									"length": 2,
+									"prevObject": {
+										"0": {
+											"sizzle1634553158969": {
+												"undefined": {
+													"parentNode": [
+														137,
+														27,
+														true
+													]
+												}
+											}
+										},
+										"length": 1
+									}
+								}
+							}
+						}
+					}
+				}
+			],
+			"props": [
+				{
+					"guid": "e2f31a1b7c4d",
+					"name": "par11",
+					"random": {
+						"func": "guid",
+						"args": {
+							"version": 5
+						}
+					}
+				},
+				{
+					"guid": "e61ae20fed88",
+					"name": "par22",
+					"random": {
+						"func": "integer",
+						"args": {
+							"min": 0,
+							"max": 100
+						}
+					}
+				},
+				{
+					"guid": "9444e6396616",
+					"name": "par33",
+					"random": {
+						"func": "string",
+						"args": {
+							"length": 5
+						}
+					}
+				}
+			]
+		},
+		"runningDevices": {
+			"Device-2d1775a2-48aa-450c-95b8-433970a46083": {
+				"deviceId": "Device-2d1775a2-48aa-450c-95b8-433970a46083",
+				"deviceType": "type2",
+				"properties": {
+					"par11": "c424b2fa-bf2a-58b0-b5ed-1ba4a54a6002",
+					"par22": 82,
+					"par33": "UUKJP"
+				}
+			},
+			"Device-d878ab8c-9622-4d34-aaa2-6d160cda8335": {
+				"deviceId": "Device-d878ab8c-9622-4d34-aaa2-6d160cda8335",
+				"deviceType": "type2",
+				"properties": {
+					"par11": "fd8811fa-5924-5824-9974-9892d1a7a314",
+					"par22": 9,
+					"par33": "ILvNj"
+				}
+			},
+			"Device-f5d3665b-ca9b-4b97-b460-cf1c70fa5842": {
+				"deviceId": "Device-f5d3665b-ca9b-4b97-b460-cf1c70fa5842",
+				"deviceType": "type2",
+				"properties": {
+					"par11": "c8939db9-8e93-588d-9a04-d6aba2911be5",
+					"par22": 24,
+					"par33": "!2^KS"
+				}
+			}
+		}
+	},
+	"type1": {
+		"schema": {
+			"id": "ae8a8588a4ccbf25",
+			"type": "Device Schema",
+			"_closeCallbacks": [
+				null
+			],
+			"_inputCallback": null,
+			"_inputCallbacks": null,
+			"wires": [],
+			"_wireCount": 0,
+			"deviceType": "type1",
+			"evts": [
+				{
+					"guid": "5477ed1486b8",
+					"name": "new",
+					"payload": {
+						"properties": {
+							"0": "4e1243c767b4",
+							"length": 1,
+							"prevObject": {
+								"0": "4e1243c767b4",
+								"length": 1,
+								"prevObject": {
+									"0": {},
+									"length": 1,
+									"prevObject": {
+										"0": {
+											"sizzle1634559587393": {
+												"undefined": {
+													"parentNode": [
+														375,
+														43,
+														true
+													]
+												}
+											}
+										},
+										"length": 1
+									}
+								}
+							}
+						}
+					}
+				},
+				{
+					"guid": "6cd55b4e86f0",
+					"name": "old",
+					"payload": {
+						"properties": {
+							"0": "4e1243c767b4",
+							"1": "c87266456f2b",
+							"length": 2,
+							"prevObject": {
+								"0": "4e1243c767b4",
+								"1": "c87266456f2b",
+								"length": 2,
+								"prevObject": {
+									"0": {},
+									"1": {},
+									"length": 2,
+									"prevObject": {
+										"0": {
+											"sizzle1634559587393": {
+												"undefined": {
+													"parentNode": [
+														376,
+														43,
+														true
+													]
+												}
+											}
+										},
+										"length": 1
+									}
+								}
+							}
+						}
+					}
+				}
+			],
+			"props": [
+				{
+					"guid": "4e1243c767b4",
+					"name": "par1",
+					"random": {
+						"func": "integer",
+						"args": {
+							"min": 0,
+							"max": 100
+						}
+					}
+				},
+				{
+					"guid": "c87266456f2b",
+					"name": "par2",
+					"random": {
+						"func": "string",
+						"args": {
+							"length": 5
+						}
+					}
+				},
+				{
+					"guid": "ed0d55bc0463",
+					"name": "par3",
+					"random": {
+						"func": "bool",
+						"args": {
+							"likelihood": 30
+						}
+					}
+				}
+			]
+		},
+		"runningDevices": {
+			"Device-0948f6bb-99a9-4445-82fb-e799f4d1da20": {
+				"deviceId": "Device-0948f6bb-99a9-4445-82fb-e799f4d1da20",
+				"deviceType": "type1",
+				"properties": {
+					"par1": 34,
+					"par2": "Y4Bzo",
+					"par3": true
+				}
+			},
+			"Device-bed14621-2a0e-4595-9253-05e1c46053cd": {
+				"deviceId": "Device-bed14621-2a0e-4595-9253-05e1c46053cd",
+				"deviceType": "type1",
+				"properties": {
+					"par1": 47,
+					"par2": "tgi[8",
+					"par3": false
+				}
+			},
+			"Device-84fbf268-5411-4ebc-8ae0-957b97d4a34a": {
+				"deviceId": "Device-84fbf268-5411-4ebc-8ae0-957b97d4a34a",
+				"deviceType": "type1",
+				"properties": {
+					"par1": 3,
+					"par2": "Ldh5[",
+					"par3": false
+				}
+			}
+		}
+	}
+}

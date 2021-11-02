@@ -1,0 +1,360 @@
+{
+	"Thing1": {
+		"config": {
+			"name": "Thing1",
+			"id": "ID-Thing1",
+			"props": {
+				"par1": 1,
+				"par2": "par2",
+				"par3": true
+			},
+			"state": [
+				{
+					"key": "state1",
+					"value": "state1"
+				},
+				{
+					"key": "state2",
+					"value": "state2"
+				}
+			],
+			"commands": [
+				{
+					"type": "str",
+					"cmd": "command1"
+				},
+				{
+					"type": "num",
+					"cmd": "1111"
+				},
+				{
+					"type": "bool",
+					"cmd": "true"
+				}
+			],
+			"children": [],
+			"statusFn": "props.par1=\"tt\"\nreturn props.par1\n"
+		},
+		"typeConfig": {
+			"id": "018605244556db21",
+			"type": "Thing Setup",
+			"z": "7881145bf8ae0510",
+			"thingType": "ThingType1",
+			"things": [
+				{
+					"name": "Thing1",
+					"id": "ID-Thing1",
+					"props": {
+						"par1": 1,
+						"par2": "par2",
+						"par3": true
+					},
+					"state": [
+						{
+							"key": "state1",
+							"value": "state1"
+						},
+						{
+							"key": "state2",
+							"value": "state2"
+						}
+					],
+					"commands": [
+						{
+							"type": "str",
+							"cmd": "command1"
+						},
+						{
+							"type": "num",
+							"cmd": "1111"
+						},
+						{
+							"type": "bool",
+							"cmd": "true"
+						}
+					],
+					"children": [],
+					"statusFn": "props.par1=\"tt\"\nreturn props.par1\n"
+				},
+				{
+					"name": "Thing2",
+					"id": "ID-Thing2",
+					"props": {
+						"par1": "par1",
+						"par2": 3123
+					},
+					"state": [
+						{
+							"key": "state1",
+							"value": "state1"
+						}
+					],
+					"commands": [
+						{
+							"type": "str",
+							"cmd": "Command1"
+						}
+					],
+					"children": [],
+					"statusFn": "props.par1=\"tt\"\nreturn props.par1\n"
+				}
+			],
+			"state": [
+				{
+					"key": "state1",
+					"value": "state1"
+				},
+				{
+					"key": "state2",
+					"value": 12312
+				}
+			],
+			"commands": [
+				{
+					"type": "str",
+					"cmd": "StateCommand1"
+				},
+				{
+					"type": "num",
+					"cmd": "1222123"
+				},
+				{
+					"type": "bool",
+					"cmd": "true"
+				}
+			],
+			"statusFunction": "state=\"eee\"",
+			"debug": false,
+			"x": 310,
+			"y": 80,
+			"wires": []
+		},
+		"name": "Thing1",
+		"type": "ThingType1",
+		"id": "ID-Thing1",
+		"props": {
+			"par1": 1,
+			"par2": "par2",
+			"par3": true
+		},
+		"children": [],
+		"state": {
+			"state1": "state1",
+			"state2": "state2"
+		},
+		"status": "tt"
+	},
+	"Thing2": {
+		"config": {
+			"name": "Thing2",
+			"id": "ID-Thing2",
+			"props": {
+				"par1": "par1",
+				"par2": 3123
+			},
+			"state": [
+				{
+					"key": "state1",
+					"value": "state1"
+				}
+			],
+			"commands": [
+				{
+					"type": "str",
+					"cmd": "Command1"
+				}
+			],
+			"children": [],
+			"statusFn": "props.par1=\"tt\"\nreturn props.par1\n"
+		},
+		"typeConfig": {
+			"id": "018605244556db21",
+			"type": "Thing Setup",
+			"z": "7881145bf8ae0510",
+			"thingType": "ThingType1",
+			"things": [
+				{
+					"name": "Thing1",
+					"id": "ID-Thing1",
+					"props": {
+						"par1": 1,
+						"par2": "par2",
+						"par3": true
+					},
+					"state": [
+						{
+							"key": "state1",
+							"value": "state1"
+						},
+						{
+							"key": "state2",
+							"value": "state2"
+						}
+					],
+					"commands": [
+						{
+							"type": "str",
+							"cmd": "command1"
+						},
+						{
+							"type": "num",
+							"cmd": "1111"
+						},
+						{
+							"type": "bool",
+							"cmd": "true"
+						}
+					],
+					"children": [],
+					"statusFn": "props.par1=\"tt\"\nreturn props.par1\n"
+				},
+				{
+					"name": "Thing2",
+					"id": "ID-Thing2",
+					"props": {
+						"par1": "par1",
+						"par2": 3123
+					},
+					"state": [
+						{
+							"key": "state1",
+							"value": "state1"
+						}
+					],
+					"commands": [
+						{
+							"type": "str",
+							"cmd": "Command1"
+						}
+					],
+					"children": [],
+					"statusFn": "props.par1=\"tt\"\nreturn props.par1\n"
+				}
+			],
+			"state": [
+				{
+					"key": "state1",
+					"value": "state1"
+				},
+				{
+					"key": "state2",
+					"value": 12312
+				}
+			],
+			"commands": [
+				{
+					"type": "str",
+					"cmd": "StateCommand1"
+				},
+				{
+					"type": "num",
+					"cmd": "1222123"
+				},
+				{
+					"type": "bool",
+					"cmd": "true"
+				}
+			],
+			"statusFunction": "state=\"eee\"",
+			"debug": false,
+			"x": 310,
+			"y": 80,
+			"wires": []
+		},
+		"name": "Thing2",
+		"type": "ThingType1",
+		"id": "ID-Thing2",
+		"props": {
+			"par1": "par1",
+			"par2": 3123
+		},
+		"children": [],
+		"state": {
+			"state1": "state1",
+			"state2": 12312
+		},
+		"status": "tt"
+	},
+	"Thing3": {
+		"config": {
+			"name": "Thing3",
+			"id": "ID-Thing3",
+			"props": {
+				"par1": "par1",
+				"par2": "par2"
+			},
+			"state": [
+				{
+					"key": "state1",
+					"value": "state1"
+				},
+				{
+					"key": "state2",
+					"value": "state2"
+				}
+			],
+			"commands": [
+				{
+					"type": "str",
+					"cmd": "Command1",
+					"as": "Command11"
+				}
+			],
+			"children": []
+		},
+		"typeConfig": {
+			"id": "b8dbb647f42af833",
+			"type": "Thing Setup",
+			"z": "7881145bf8ae0510",
+			"thingType": "ThingType2",
+			"things": [
+				{
+					"name": "Thing3",
+					"id": "ID-Thing3",
+					"props": {
+						"par1": "par1",
+						"par2": "par2"
+					},
+					"state": [
+						{
+							"key": "state1",
+							"value": "state1"
+						},
+						{
+							"key": "state2",
+							"value": "state2"
+						}
+					],
+					"commands": [
+						{
+							"type": "str",
+							"cmd": "Command1",
+							"as": "Command11"
+						}
+					],
+					"children": []
+				}
+			],
+			"state": [],
+			"commands": [],
+			"statusFunction": "",
+			"debug": false,
+			"x": 360,
+			"y": 140,
+			"wires": []
+		},
+		"name": "Thing3",
+		"type": "ThingType2",
+		"id": "ID-Thing3",
+		"props": {
+			"par1": "par1",
+			"par2": "par2"
+		},
+		"children": [],
+		"state": {
+			"state1": "state1",
+			"state2": "state2"
+		},
+		"status": {}
+	}
+}
